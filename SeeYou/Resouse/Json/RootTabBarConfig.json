@@ -1,0 +1,28 @@
+[
+ {
+  "title":"遇见",
+  "img":"tabBar_1",
+  "vcName":"HYNewHomeVC"
+ },
+ {
+ "title":"私信",
+ "img":"tabBar_2",
+ "vcName":"HYPrivateListViewController"
+ },
+ {
+ "title":"约会",
+ "img":"tabBar_3",
+ "vcName":"HYDatingViewController"
+ },
+ {
+ "title":"通讯录",
+ "img":"tabBar_4",
+ "vcName":"HYAddressListMianViewController"
+ },
+
+ {
+ "title":"我",
+ "img":"tabBar_5",
+ "vcName":"HYProfileVC"
+ }
+]

@@ -1,0 +1,21 @@
+//
+//  HYBaseView.m
+//  youbaner
+//
+//  Created by luzhongchang on 17/7/29.
+//  Copyright © 2017年 luzhongchang. All rights reserved.
+//
+
+#import "HYBaseView.h"
+
+@implementation HYBaseView
+
+/*
+// Only override drawRect: if you perform custom drawing.
+// An empty implementation adversely affects performance during animation.
+- (void)drawRect:(CGRect)rect {
+    // Drawing code
+}
+*/
+
+@end

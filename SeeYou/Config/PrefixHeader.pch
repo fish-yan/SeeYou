@@ -1,0 +1,124 @@
+//
+//  PrefixHeader.pch
+//  youbaner
+//
+//  Created by luzhongchang on 17/7/29.
+//  Copyright © 2017年 luzhongchang. All rights reserved.
+//
+
+#ifndef PrefixHeader_h
+#define PrefixHeader_h
+
+//pods
+
+
+#define MAJIA_TYPE @"2"
+#define TIP_TAKEPHONE @"拍摄"
+#define TIP_TAKEPIC @"从手机相册选择"
+
+#import "Masonry.h"
+#import "NSDate+MTDates.h"
+#import "ReactiveObjC.h"
+#import "SDWebImageDownloader.h"
+#import "UIImageView+WebCache.h"
+#import "UIButton+WebCache.h"
+#import "SDImageCache.h"
+#import "FLAnimatedImage.h"
+#import "UITableView+FDTemplateLayoutCell.h"
+#import "LXChatServerDefs.h"
+#import "LXChatBoxConst.h"
+#import "VTMagic.h"
+#import "MJExtension.h"
+#import "MJRefresh.h"
+#import "WebViewJavascriptBridge.h"
+#import <YYCache/YYCache.h>
+#import <AlipaySDK/AlipaySDK.h>
+#import <tingyunApp/NBSAppAgent.h>
+#import <Growing.h>
+#import <JPUSHService.h>
+#ifdef NSFoundationVersionNumber_iOS_9_x_Max
+#import <UserNotifications/UserNotifications.h>
+#endif
+
+//config
+#import "APiMarco.h"
+#import "AppMarco.h"
+#import "ToolMarco.h"
+#import "GlobalMarco.h"
+#import "HYCendorsConfig.h"
+#import "WDFailureView.h"
+#import "UIView+FailureView.h"
+
+//category
+
+#import "UIButton+Create.h"
+#import "UIImageView+Create.h"
+#import "UILabel+Create.h"
+#import "UITableView+Create.h"
+#import "UITextField+Create.h"
+#import "UITextView+Create.h"
+#import "UIView+Create.h"
+#import "NSArray+Log.h"
+#import "NSString+CheckEmpty.h"
+#import "NSString+Contains.h"
+#import "NSString+Encode.h"
+#import "NSString+Pwd.h"
+#import "NSString+Size.h"
+#import "UIButton+CountDown.h"
+#import "UIButton+ImagePosition.h"
+#import "UIColor+Gradient.h"
+#import "UIColor+Hex.h"
+#import "UIColor+Random.h"
+#import "UIImage+Capture.h"
+#import "UIImage+Color.h"
+#import "UILabel+ContentSize.h"
+#import "UINavigationBar+BottomLineColor.h"
+#import "UITabBar+RedPoint.h"
+#import "UITextView+Placeholder.h"
+#import "UIWindow+Controller.h"
+#import "UIView+YS_FrameExt.h"
+
+#import "UIColor+Config.h"
+#import "CALayer+Extension.h"
+
+
+//network
+
+#import "WDRequestConfig.h"
+#import "WDRequestAdapter.h"
+#import "WDRequestManager.h"
+#import "WDResponseModel.h"
+#import "HYNetworkTools.h"
+#import "HYBaseViewModel.h"
+#import "HYBaseModel.h"
+#import "ModuleMapName.h"
+
+//tools
+#import "YSMediator.h"
+#import "YSMediator+Router.h"
+#import "HYAlertViewController.h"
+#import "WDProgressHUD.h"
+#import "HYCountDown.h"
+#import "HYUserContext.h"
+#import "AppDelegateUIAssistant.h"
+#import "WDRefresher.h"
+
+#import "AESUtility.h"
+#import "NSString+MD5.h"
+#import "WDSignatureManager.h"
+#import "NSDictionary+Convert.h"
+#import "HYUserCenterModel.h"
+
+#import "UIImage+HYGradient.h"
+
+
+// Common
+#import "HYObjectListModel.h"
+#import "DatingStatusEnum.h"
+#import "HYLocation.h"
+#import "HYLocationHelper.h"
+#import "HYAppContext.h"
+
+#import "HYUnreadInfoFetcher.h"
+
+#endif /* PrefixHeader_h */

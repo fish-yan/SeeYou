@@ -1,0 +1,6 @@
+framework module Pods_BASE_POD_SeeYou {
+  umbrella header "Pods-BASE_POD-SeeYou-umbrella.h"
+
+  export *
+  module * { export * }
+}
